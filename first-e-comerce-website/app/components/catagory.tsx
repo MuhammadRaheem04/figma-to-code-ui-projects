@@ -1,7 +1,6 @@
 'use client'
 import React from 'react'
 import Image from 'next/image'
-import { PiCameraThin } from "react-icons/pi";
 
 const Catagory = () => {
   return (
