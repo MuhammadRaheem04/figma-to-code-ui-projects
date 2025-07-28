@@ -1,14 +1,14 @@
 'use client'
 import React from 'react'
-import { Inter } from 'next/font/google'
+// import { Inter } from 'next/font/google'
 import Image from 'next/image'
 
-const inter = Inter({ subsets: ['latin'] })
+// const inter = Inter({ subsets: ['latin'] })
 
 const Music = () => {
   return (
-    <div className=' w-full h-full flex justify-center md:mb-16'>
-    <div className=' sm:w-full md:w-[1170px] sm:h-auto md:h-[500px] flex justify-center items-center bg-black '>
+    <div className=' w-full h-full flex justify-center md:mb-16 mt-10'>
+    <div className='w-full md:w-[1170px] h-auto md:h-[500px] flex flex-col md:flex-row justify-center items-center bg-black '>
 
       {/* text div  */}
     
@@ -55,7 +55,7 @@ const Music = () => {
              {/* Image div  */}
 
              <div className='w-[50%] h-[330px] flex justify-center items-center mr-16 '>
-                <Image src={require('../../public/images/music/music.png')} alt='music' width={558} height={330}/>
+                <Image src={'/images/music/music.png'} alt='music' width={558} height={330} className='h-[250px] w-[400px] md:h-[330] md:w-[550] mb-6 md:mb-0'/>
              </div>
     </div>
     </div>

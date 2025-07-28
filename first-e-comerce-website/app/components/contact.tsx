@@ -4,8 +4,7 @@ import React from 'react'
 
 const ContactMain = () => {
   return (
-    <div>
-
+    <div className='w-full h-full'>
         {/* links */}
       <div className='flex space-x-3 mt-10 mb-10 ml-10 md:ml-32'>
       <span className='text-[14px] font-normal opacity-50'><Link href="/">Home</Link></span>
@@ -13,7 +12,7 @@ const ContactMain = () => {
       <span className='text-[14px] font-normal text-black'><Link href="/contact">Contact</Link></span>
       </div>
 
-<div className='w-full flex justify-center items-center '>
+<div className='w-full flex flex-col md:flex-row md:justify-center items-center '>
    
     {/* left div  */}
    <div className='w-[340px] h-[457px] bg-white shadow-lg flex flex-col items-center justify-evenly'>
@@ -45,10 +44,10 @@ const ContactMain = () => {
    </div>
 
 {/* right div  */}
-<div className='w-[800px] h-[457px] bg-white shadow-lg  flex flex-col justify-start items-center'>
-    <div className='w-[737px] h-[430px] flex flex-col justify-between items-center space-y-3'>
+<div className='w-[800px] h-full md:h-[457px] bg-white shadow-lg  flex flex-col justify-start items-center pb-5'>
+    <div className='w-[737px] h-full md:h-[430px] flex flex-col justify-between items-center space-y-3'>
         {/* upper inputs  */}
-        <div className='flex space-x-3'>
+        <div className='flex flex-col md:flex-row md:space-x-3 space-y-4 md:space-y-0 mt-5 md:mt-0'>
             <input type="text" className='w-[235] h-[50px] bg-gray-200 rounded-md' placeholder='  Your Name *' />
             <input type="text" className='w-[235] h-[50px] bg-gray-200 rounded-md' placeholder='  Your Email *'/>
             <input type="text" className='w-[235] h-[50px] bg-gray-200 rounded-md' placeholder='  Your Phone *'/>
@@ -56,7 +55,7 @@ const ContactMain = () => {
 
         {/* lower textarea  */}
         <div>
-            <textarea className='w-[737px] h-[200px] bg-gray-200 mt-3 text-white rounded-md' placeholder='  Your message'></textarea>
+            <textarea className='w-[300px] md:w-[737px] h-[150px] md:h-[200px] bg-gray-200 mt-3 text-white rounded-md' placeholder='  Your message'></textarea>
         </div>
 
         {/* button  */}

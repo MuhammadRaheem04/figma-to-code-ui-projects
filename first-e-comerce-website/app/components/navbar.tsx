@@ -1,5 +1,4 @@
 
-
 import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image';
@@ -12,7 +11,7 @@ const Navbar = () => {
         <div>
 
           {/* Top header  */}
-    <div className='w-full h-[48px] bg-[#000000] flex justify-center items-center'>
+    <div className='w-full md:h-[48px] bg-[#000000] flex flex-col md:flex-row justify-center items-center'>
     <div className='w-[859px] h-[24px] flex justify-center items-center'>
         <h1 className='w-[474px] h-[18px] text-white text-[14px] font-normal'>Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!</h1>
         <p className='w-[68px] h-[24px] text-white text-[14px] font-semibold mt-1 underline'>ShopNow</p>
@@ -23,8 +22,8 @@ const Navbar = () => {
       </div>
   </div>
                  {/* header/ Navbar  */}
-    <div className='w-full h-[80px] flex justify-center items-center border-b-2'>
-     <div className='w-[80%] h-full flex justify-between items-center'>
+    <div className='w-full h-full md:h-[80px] flex justify-center items-center border-b-2 pb-4 md:pb-0'>
+     <div className='w-[80%] h-full flex flex-col md:flex-row justify-between items-center'>
         {/* left side */}
         <div> 
             {/* logo  */}

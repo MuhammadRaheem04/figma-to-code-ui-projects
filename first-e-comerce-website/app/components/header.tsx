@@ -33,8 +33,8 @@ const Header = () => {
            </div>
            {/* Icons  */}
            <div className='flex gap-4'>
-           <FiHeart className='h-[32px] w-[32px]' />
-           <GrCart className='h-[32px] w-[32px]' />
+           <FiHeart className='h-[32px] w-[32px] cursor-pointer' />
+           <GrCart className='h-[32px] w-[32px] cursor-pointer' />
            </div>
         </div>
 

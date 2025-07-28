@@ -4,8 +4,8 @@ import Image from 'next/image'
 
 const MoreProducts = () => {
     return (
-        <div className='w-full h-[1000px] flex flex-col items-center justify-center mt-8 '>
-            <div className=' w-[90%] h-[900px]'>
+        <div className='w-full h-full md:h-[1000px] flex flex-col items-center justify-center mt-8 '>
+            <div className=' w-[90%] h-full md:h-[900px]'>
                 {/* Top side  */}
                 <div>
                     <span className='border-l-8 border-red-500 text-red-400 pl-3 mb-5 font-bold'>Our Products</span>
@@ -14,12 +14,12 @@ const MoreProducts = () => {
                     </div>
                 </div>
                 {/* products Boxes  */}
-                <div className='grid grid-cols-4 ml-10 mt-16 w-full h-[711px]'>
+                <div className='grid grid-cols-2 md:grid-cols-4 gap-5 md:ml-10 mt-16 w-full h-full md:h-[711px]'>
 
                     {/* product 01 */}
                     <div className=''>
-                        <div className='w-[200px] h-[170px] bg-gray-200 flex justify-center items-center'>
-                            <Image src={require('../../public/images/products-images/Frame 605-1.png')} alt='Product Image' width={150} height={100} />
+                        <div className='w-[170px] md:w-[200px] h-[150px] md:h-[170px] bg-gray-200 flex justify-center items-center'>
+                            <Image src={'/images/products-images/Frame 605-1.png'} alt='Product Image' width={150} height={100} />
                         </div>
                         {/* title  */}
                         <div>
@@ -27,7 +27,7 @@ const MoreProducts = () => {
                             <span className='text-red-500'>$260</span> <span className='ml-2'>$360</span>
                             <div className='flex'>
                                 <span>
-                                    <Image alt='stars' src={require('../../public/images/products-images/Five star.png')} width={100} height={100} />
+                                    <Image alt='stars' src={'/images/products-images/Five star.png'} width={100} height={100} />
                                 </span>
                                 <span className='ml-1'>(65)</span>
                             </div>
@@ -37,8 +37,8 @@ const MoreProducts = () => {
 
                     {/* product 02 */}
                     <div>
-                        <div className='w-[200px] h-[170px] bg-gray-200 flex justify-center items-center'>
-                            <Image src={require('../../public/images/products-images/Frame 605-2.png')} alt='Product Image' width={150} height={100} />
+                        <div className='w-[170px] md:w-[200px] h-[150px] md:h-[170px] bg-gray-200 flex justify-center items-center'>
+                            <Image src={'/images/products-images/Frame 605-2.png'} alt='Product Image' width={150} height={100} />
                         </div>
                         {/* title  */}
                         <div>
@@ -46,7 +46,7 @@ const MoreProducts = () => {
                             <span className='text-red-500'>$960</span> <span className='ml-2'>$1160</span>
                             <div className='flex'>
                                 <span>
-                                    <Image alt='stars' src={require('../../public/images/products-images/Four Half Star.png')} width={100} height={100} />
+                                    <Image alt='stars' src={'/images/products-images/Four Half Star.png'} width={100} height={100} />
                                 </span>
                                 <span className='ml-1'>(65)</span>
                             </div>
@@ -55,8 +55,8 @@ const MoreProducts = () => {
 
                     {/* product 03 */}
                     <div>
-                        <div className='w-[200px] h-[170px] bg-gray-200 flex justify-center items-center'>
-                            <Image src={require('../../public/images/products-images/Frame 605-3.png')} alt='Product Image' width={150} height={100} />
+                        <div className='w-[170px] md:w-[200px] h-[150px] md:h-[170px] bg-gray-200 flex justify-center items-center'>
+                            <Image src={'/images/products-images/Frame 605-3.png'} alt='Product Image' width={150} height={100} />
                         </div>
                         {/* title  */}
                         <div>
@@ -64,7 +64,7 @@ const MoreProducts = () => {
                             <span className='text-red-500'>$160</span> <span className='ml-2'>$170</span>
                             <div className='flex'>
                                 <span>
-                                    <Image alt='stars' src={require('../../public/images/products-images/Four Half Star.png')} width={100} height={100} />
+                                    <Image alt='stars' src={'/images/products-images/Four Half Star.png'} width={100} height={100} />
                                 </span>
                                 <span className='ml-1'>(65)</span>
                             </div>
@@ -73,8 +73,8 @@ const MoreProducts = () => {
 
                     {/* product 04 */}
                     <div>
-                        <div className='w-[200px] h-[170px] bg-gray-200 flex justify-center items-center '>
-                            <Image src={require('../../public/images/products-images/Frame 605-4.png')} alt='Product Image' width={150} height={100} />
+                        <div className='w-[170px] md:w-[200px] h-[150px] md:h-[170px] bg-gray-200 flex justify-center items-center '>
+                            <Image src={'/images/products-images/Frame 605-4.png'} alt='Product Image' width={150} height={100} />
                         </div>
                         {/* title  */}
                         <div>
@@ -82,7 +82,7 @@ const MoreProducts = () => {
                             <span className='text-red-500'>$360</span>
                             <div className='flex'>
                                 <span>
-                                    <Image alt='stars' src={require('../../public/images/products-images/Five star.png')} width={100} height={100} />
+                                    <Image alt='stars' src={'/images/products-images/Five star.png'} width={100} height={100} />
                                 </span>
                                 <span className='ml-1'>(65)</span>
                             </div>
@@ -92,8 +92,8 @@ const MoreProducts = () => {
                       
                     {/* product 05 */}
                      <div>
-                        <div className='w-[200px] h-[170px] bg-gray-200 flex justify-center items-center '>
-                            <Image src={require('../../public/images/products-images/Frame 605-4.png')} alt='Product Image' width={150} height={100} />
+                        <div className='w-[170px] md:w-[200px] h-[150px] md:h-[170px] bg-gray-200 flex justify-center items-center '>
+                            <Image src={'/images/products-images/Frame 605-4.png'} alt='Product Image' width={150} height={100} />
                         </div>
                         {/* title  */}
                         <div>
@@ -101,7 +101,7 @@ const MoreProducts = () => {
                             <span className='text-red-500'>$360</span>
                             <div className='flex'>
                                 <span>
-                                    <Image alt='stars' src={require('../../public/images/products-images/Five star.png')} width={100} height={100} />
+                                    <Image alt='stars' src={'/images/products-images/Five star.png'} width={100} height={100} />
                                 </span>
                                 <span className='ml-1'>(65)</span>
                             </div>
@@ -110,8 +110,8 @@ const MoreProducts = () => {
 
                     {/* product 06 */}
                     <div>
-                        <div className='w-[200px] h-[170px] bg-gray-200 flex justify-center items-center '>
-                            <Image src={require('../../public/images/products-images/Frame 605-4.png')} alt='Product Image' width={150} height={100} />
+                        <div className='w-[170px] md:w-[200px] h-[150px] md:h-[170px] bg-gray-200 flex justify-center items-center '>
+                            <Image src={'/images/products-images/Frame 605-4.png'} alt='Product Image' width={150} height={100} />
                         </div>
                         {/* title  */}
                         <div>
@@ -119,7 +119,7 @@ const MoreProducts = () => {
                             <span className='text-red-500'>$360</span>
                             <div className='flex'>
                                 <span>
-                                    <Image alt='stars' src={require('../../public/images/products-images/Five star.png')} width={100} height={100} />
+                                    <Image alt='stars' src={'/images/products-images/Five star.png'} width={100} height={100} />
                                 </span>
                                 <span className='ml-1'>(65)</span>
                             </div>
@@ -128,8 +128,8 @@ const MoreProducts = () => {
 
                    {/* product 07 */}
                     <div>
-                            <div className='w-[200px] h-[170px] bg-gray-200 flex justify-center items-center '>
-                                <Image src={require('../../public/images/products-images/Frame 605-4.png')} alt='Product Image' width={150} height={100} />
+                            <div className='w-[170px] md:w-[200px] h-[150px] md:h-[170px] bg-gray-200 flex justify-center items-center '>
+                                <Image src={'/images/products-images/Frame 605-4.png'} alt='Product Image' width={150} height={100} />
                             </div>
                             {/* title  */}
                             <div>
@@ -137,7 +137,7 @@ const MoreProducts = () => {
                                 <span className='text-red-500'>$360</span>
                                 <div className='flex'>
                                     <span>
-                                        <Image alt='stars' src={require('../../public/images/products-images/Five star.png')} width={100} height={100} />
+                                        <Image alt='stars' src={'/images/products-images/Five star.png'} width={100} height={100} />
                                     </span>
                                     <span className='ml-1'>(65)</span>
                                 </div>
@@ -146,8 +146,8 @@ const MoreProducts = () => {
                 
                  {/* product 08 */}
                  <div>
-                            <div className='w-[200px] h-[170px] bg-gray-200 flex justify-center items-center '>
-                                <Image src={require('../../public/images/products-images/Frame 605-4.png')} alt='Product Image' width={150} height={100} />
+                            <div className='w-[170px] md:w-[200px] h-[150px] md:h-[170px] bg-gray-200 flex justify-center items-center '>
+                                <Image src={'/images/products-images/Frame 605-4.png'} alt='Product Image' width={150} height={100} />
                             </div>
                             {/* title  */}
                             <div>
@@ -155,7 +155,7 @@ const MoreProducts = () => {
                                 <span className='text-red-500'>$360</span>
                                 <div className='flex'>
                                     <span>
-                                        <Image alt='stars' src={require('../../public/images/products-images/Five star.png')} width={100} height={100} />
+                                        <Image alt='stars' src={'/images/products-images/Five star.png'} width={100} height={100} />
                                     </span>
                                     <span className='ml-1'>(65)</span>
                                 </div>

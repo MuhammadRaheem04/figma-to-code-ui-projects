@@ -7,14 +7,14 @@ import { FcGoogle } from "react-icons/fc";
 const Signup = () => {
   return (
     <div className='w-full flex justify-start mt-10'>
-      <div className='w-[90%] h-[781px] flex my-auto'>
+      <div className='w-[90%] h-full md:h-[781px] flex flex-col items-center md:flex-row my-auto'>
         {/* left side image  */}
-        <div className='w-[70%]'>
-            <Image src={require('../../public/images/Signup/Side Image-1.png')} alt='Img' height={781} width={805}/>
+        <div className='w-[90%] md:w-[70%] ml-10 md:ml-0'>
+            <Image src={'/images/Signup/Side Image-1.png'} alt='Img' height={781} width={805}/>
         </div>
 
             {/* right side text  */}
-            <div className='w-[30%] flex flex-col justify-center ml-16'>
+            <div className=' w-[50%] md:w-[30%] flex flex-col justify-center ml-16'>
 
                 {/* headind div  */}
             <div className='space-y-4 mb-4'>

@@ -7,17 +7,17 @@ import { CiTwitter } from "react-icons/ci";
 
 const Persons = () => {
   return (
-    <div className='w-full h-[560px] my-28'>
+    <div className='w-full h-full md:h-[560px] my-28'>
        {/* images section 01  */}
-       <div className='w-full h-[560px] my-10'>
+       <div className='w-full h-full md:h-[560px] my-10'>
                 {/* cataogory Boxes  */}
-                <div className='flex justify-evenly mt-10 mx-auto items-center '>
+                <div className='flex flex-col md:flex-row md:justify-evenly mt-10 mx-auto items-center space-y-5'>
 
                     {/* catagory 01  */}
 
                     <div>
                         <div className='w-[370px] h-[430px] flex flex-col  justify-center items-center border-2 border-black/20 rounded-md bg-[#F5F5F5] mb-4'>
-                            <Image src={require('../../../public/images/about/person-1.png')} alt='img' height={391} width={236} />                 
+                            <Image src={'/images/about/person-1.png'} alt='img' height={391} width={236} />                 
                         </div>
                         <h1 className='text-[32px] font-[Inter] font-bold mb-2'>Tom Cruise</h1>
                         <h2 className='text-[16px] font-[Poppins] font-normal mb-2'>Founder & Chairman</h2>
@@ -32,7 +32,7 @@ const Persons = () => {
 
                     <div>
                         <div className='w-[370px] h-[430px] flex flex-col justify-center items-center border-2 border-black/20 rounded-md bg-[#F5F5F5] mb-4'>
-                            <Image src={require('../../../public/images/about/person-2.png')} alt='img' height={397} width={294} />
+                            <Image src={'/images/about/person-2.png'} alt='img' height={397} width={294} />
                         </div>
                         <h1 className='text-[32px] font-[Inter] font-bold mb-2'>Emma Watson</h1>
                         <h2 className='text-[16px] font-[Poppins] font-normal mb-2'>Managing Director</h2>
@@ -46,7 +46,7 @@ const Persons = () => {
                     {/* catagory 04  */}
                     <div>
                         <div className='w-[370px] h-[430px] flex flex-col justify-center items-center border-2 border-black/20 rounded-md bg-[#F5F5F5] mb-4'>
-                            <Image src={require('../../../public/images/about/person-3.png')} alt='img' height={392} width={326} />
+                            <Image src={'/images/about/person-3.png'} alt='img' height={392} width={326} />
                         </div>
                         <h1 className='text-[32px] font-[Inter] font-bold mb-2'>Will Smith</h1>
                          <h2 className='text-[16px] font-[Poppins] font-normal mb-2'>Product Designer</h2>

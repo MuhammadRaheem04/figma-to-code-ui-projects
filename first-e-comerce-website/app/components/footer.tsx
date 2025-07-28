@@ -4,8 +4,9 @@ import { VscSend } from "react-icons/vsc";
 
 const Footer = () => {
   return (
-    <div className='bg-black text-white flex h-[440px] mt-20 justify-evenly items-center'>
-      <div>
+    <div className='bg-black text-white grid grid-cols-2 px-6 py-6 gap-3 md:flex h-full md:h-[440px] mt-20 justify-evenly items-center w-full'>
+   
+        <div>
         <h1 className='text-lg font-bold'>Exclusive</h1>
         <ul>
             <li className='mt-5'>Subscribe</li>
@@ -14,7 +15,7 @@ const Footer = () => {
             <VscSend className='ml-5 w-6 h-6'/>
             </button>
         </ul>
-      </div>
+        </div>
       <div className='w-[175px]'>
       <h1 className='font-bold'>Support</h1>
         <ul>
@@ -23,7 +24,8 @@ const Footer = () => {
             <li className='mt-4'>+88015-88888-9999</li>
         </ul>
       </div>
-      <div>
+
+        <div>
       <h1 className='font-bold mt-10'>Account</h1>
         <ul>
             <li className='mt-6'>My Accoun</li>
@@ -42,6 +44,7 @@ const Footer = () => {
             <li className='mt-3'>Contact</li>
         </ul>
       </div>
+
     </div>
   )
 }

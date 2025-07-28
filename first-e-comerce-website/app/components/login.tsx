@@ -3,7 +3,6 @@
 import Image from 'next/image'
 import Link from 'next/link';
 import React from 'react'
-import { FcGoogle } from "react-icons/fc";
 
 const LogIn = () => {
   return (
@@ -11,7 +10,7 @@ const LogIn = () => {
       <div className='w-[90%] h-[781px] flex my-auto'>
         {/* left side image  */}
         <div className='w-[70%]'>
-            <Image src={require('../../public/images/Signup/Side Image-1.png')} alt='Img' height={781} width={805}/>
+            <Image src={'/images/Signup/Side Image-1.png'} alt='Img' height={781} width={805}/>
         </div>
 
             {/* right side text  */}

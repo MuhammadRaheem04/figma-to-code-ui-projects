@@ -16,49 +16,49 @@ const Catagory = () => {
            </div>
 
            {/* cataogory Boxes  */}
-           <div className='flex sm:flex-col md:flex-row justify-between mt-10  '>
+           <div className='grid grid-cols-2 md:flex md:justify-between mt-10 gap-6'>
 
                 {/* catagory 01  */}
               <div>
-            <div className='w-[170px] h-[145px] flex justify-center items-center border-2 border-black/20 rounded-md'> 
-                <Image src={require('../../public/images/catagory/Category-CellPhone.png')} alt='img' height={56} width={56}/>
+            <div className='w-[150px] md:w-[170px] h-[130px] md:h-[145px] flex justify-center items-center border-2 border-black/20 rounded-md'> 
+                <Image src={'/images/catagory/Category-CellPhone.png'} alt='img' height={56} width={56}/>
             </div>
               </div>
 
                 {/* catagory 02  */}
               <div>
-              <div className='w-[170px] h-[145px] flex justify-center items-center border-2 border-black/20 rounded-md'> 
-              <Image src={require('../../public/images/catagory/Category-Computer.png')} alt='img' height={56} width={56}/>
+              <div className='w-[150px] md:w-[170px] h-[130px] md:h-[145px] flex justify-center items-center border-2 border-black/20 rounded-md'> 
+              <Image src={'/images/catagory/Category-Computer.png'} alt='img' height={56} width={56}/>
             </div>
               </div>
 
               {/* catagory 03  */}
 
                <div>
-               <div className='w-[170px] h-[145px] flex justify-center items-center border-2 border-black/20 rounded-md'> 
-               <Image src={require('../../public/images/catagory/Category-SmartWatch.png')} alt='img' height={56} width={56}/>
+               <div className='w-[150px] md:w-[170px] h-[130px] md:h-[145px] flex justify-center items-center border-2 border-black/20 rounded-md'> 
+               <Image src={'/images/catagory/Category-SmartWatch.png'} alt='img' height={56} width={56}/>
             </div>
                </div>
 
                {/* catagory 04  */}
 
                <div>
-               <div className='w-[170px] h-[145px] flex justify-center items-center border-2 border-black/20 rounded-md bg-red-600'> 
-               <Image src={require('../../public/images/catagory/Category-Camera.png')} alt='img' height={56} width={56}/>
+               <div className='w-[150px] md:w-[170px] h-[130px] md:h-[145px] flex justify-center items-center border-2 border-black/20 rounded-md bg-red-600'> 
+               <Image src={'/images/catagory/Category-Camera.png'} alt='img' height={56} width={56}/>
             </div>
                </div>
 
                {/* catagory 05  */}
                <div>
-               <div className='w-[170px] h-[145px] flex justify-center items-center border-2 border-black/20 rounded-md'> 
-               <Image src={require('../../public/images/catagory/Category-Headphone.png')} alt='img' height={56} width={56}/>
+               <div className='w-[150px] md:w-[170px] h-[130px] md:h-[145px] flex justify-center items-center border-2 border-black/20 rounded-md'> 
+               <Image src={'/images/catagory/Category-Headphone.png'} alt='img' height={56} width={56}/>
             </div>
                </div>
 
                 {/* catagory 06  */}
                 <div>
-               <div className='w-[170px] h-[145px] flex justify-center items-center border-2 border-black/20 rounded-md'> 
-               <Image src={require('../../public/images/catagory/Category-Gamepad.png')} alt='img' height={56} width={56}/>
+               <div className='w-[150px] md:w-[170px] h-[130px] md:h-[145px] flex justify-center items-center border-2 border-black/20 rounded-md'> 
+               <Image src={'/images/catagory/Category-Gamepad.png'} alt='img' height={56} width={56}/>
             </div>
                </div>
 
